@@ -1,0 +1,14 @@
+myenv/
+__pycache__/
+db.sqlite3
+.env
+
+
+# Ye 4 lines ka matlab, GitHub pe ye files nahi jaani chahiye:
+
+# myenv/: virtual environment, bahut heavy hota hai. Uski jagah requirements.txt kaafi hai.
+# __pycache__/: Python ki auto-bani cache files, kaam ki nahi.
+# db.sqlite3: tera local database file, usme tera test data hai. Deploy pe Postgres use hoga.
+# .env: secret keys/passwords hote hain, public repo pe jaana khatarnak hai 🔒
+
+# Agar .env file tere project mein hai hi nahi, to bhi line rakh sakta hai, koi nuksan nahi
