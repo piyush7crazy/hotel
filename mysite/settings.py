@@ -27,7 +27,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'local-key-123')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ "hotel-oqsg.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["https://hotel-oqsg.onrender.com"]
 
 
 # Application definition
